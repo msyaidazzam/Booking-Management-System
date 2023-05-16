@@ -16,7 +16,7 @@ $sql = "DELETE FROM `listservis` WHERE ID = $id";
  $query = mysqli_query($db, $sql);
  }
  else{
-    header('Location: indexServisCS.php?p=Dalam Pengerjaan');
+    header('Location: IndexServisCS.php?p=Dalam Pengerjaan');
  }
  // apakah query update berhasil?
  if( $query ) {
